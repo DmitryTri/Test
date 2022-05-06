@@ -1,0 +1,11 @@
+.padding20px {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 55px
+}
+
+c-nav-link {
+    text-decoration: none;
+    display: block;
+}
