@@ -15,6 +15,11 @@
     color: #515769;
 }
 
+.pad-r-l-0px {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
 .c-nav-link {
     text-decoration: none;
     display: block;
