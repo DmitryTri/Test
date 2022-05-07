@@ -1,11 +1,35 @@
-.padding20px {
+.c-pad20px {
     padding: 20px;
     font-size: 13px;
     font-weight: 600;
-    line-height: 55px
+    line-height: 55px;
+    color: #515769;
 }
 
-c-nav-link {
+.c-pad20px-r0 {
+    padding: 20px;
+    padding-right: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #515769;
+}
+
+.c-nav-link {
     text-decoration: none;
     display: block;
+}
+
+.c-a-flex {
+    display: flex;
+}
+
+.nav-link.active::before {
+    content: " ";
+    width: 9px;
+    height: 2px;
+    background: #17bed2;
+    position: absolute;
+    left: 6px;
+    top: 10px;
 }
