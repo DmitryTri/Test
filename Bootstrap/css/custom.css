@@ -1,9 +1,5 @@
-.c-pad20px {
+.c-p20 {
     padding: 20px;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 55px;
-    color: #515769;
 }
 
 .c-pad20px-r0 {
@@ -20,6 +16,13 @@
     padding-left: 0px !important;
 }
 
+.c-link {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #515769;
+}
+
 .c-nav-link {
     text-decoration: none;
     display: block;
@@ -29,21 +32,22 @@
     display: flex;
 }
 
-.nav-link.active::before {
+.c-link-l.active::before {
     content: " ";
     width: 9px;
     height: 2px;
-    background: #17bed2;
+    background: #515769;
     position: absolute;
     left: 6px;
-    top: 10px;
+    top: 47px;
 }
+/* если не сработает с a - сделать отдельный класс c-def-l для спана с этой чёрточкой */
 
 .c-border-bottom-01px {
     border-bottom: 1px solid #edf0f2;
 }
 
-.top-bot-pad-80px {
+.section {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -84,7 +88,7 @@ p {
     color: #a6a7aa;
     margin-bottom: 15px;
 }
-
+/* сколько видов ссылок посмотреть и сделать универсальный клас и отдельный для того класса, который отличается */
 .read-more-decor {
     color: #81848f !important;
     position: relative;
@@ -124,6 +128,7 @@ h2 {
     font-size: 16px;
     font-weight: 500;
 }
+/* разделить фут линк на li и а и присвоить а свойства шрифта, а li марджин и лист стайл ul */
 
 .ul-pad-0px {
     padding-inline-start: 0px;
