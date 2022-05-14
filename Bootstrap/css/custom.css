@@ -19,20 +19,18 @@
 .c-link {
     font-size: 13px;
     font-weight: 600;
-    line-height: 55px;
+}
+
+.nav-link-color {
     color: #515769;
+    line-height: 55px;
 }
 
-.c-nav-link {
-    text-decoration: none;
-    display: block;
+.link-color {
+    color: #81848f;
 }
 
-.c-a-flex {
-    display: flex;
-}
-
-.c-link-l.active::before {
+.c-link-r.active::before {
     content: " ";
     width: 9px;
     height: 2px;
@@ -41,7 +39,6 @@
     left: 6px;
     top: 47px;
 }
-/* если не сработает с a - сделать отдельный класс c-def-l для спана с этой чёрточкой */
 
 .c-border-bottom-01px {
     border-bottom: 1px solid #edf0f2;
@@ -96,12 +93,14 @@ p {
     font-weight: 600;
 }
 
-.read-more-decor.active::after {
+.c-link-l.active::after {
     content: " ";
     width: 9px;
     height: 2px;
     background: #81848f;
     position: absolute;
+    bottom: 9px;
+    right: 218px;
 }
 
 a {
