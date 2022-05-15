@@ -30,7 +30,7 @@
     color: #81848f;
 }
 
-.c-link-r.active::before {
+.c-link-l.active::before {
     content: " ";
     width: 9px;
     height: 2px;
@@ -93,7 +93,7 @@ p {
     font-weight: 600;
 }
 
-.c-link-l.active::after {
+.c-link-r::after {
     content: " ";
     width: 9px;
     height: 2px;
